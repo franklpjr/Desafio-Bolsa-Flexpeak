@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap/bootstrap.min.css" >
+    <style>
+        body {
+            background-color: rgb(77, 72, 72);
+            padding: 150px 0;
+        }
+        .container {
+            background-color: #ccc;
+            content: " ";
+            min-height: 50px;
+        }
+        .row {
+            background-color: black;
+            min-height: 50px;
+            content: " ";
+            border: 2px solid aqua;
+        }
+        [class*="col-"] {
+            background-color: white;
+            min-height: 50px;
+            content: " ";
+            border: 2px solid blue;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-6"></div>
+            <div class="col-6">
+                <div class="row">
+                    <div class="col-6">
+                        <div class="row"></div>
+                        <div class="row"></div>
+                    </div>
+                    <div class="col-6"></div>
+                </div>
+                <div class="row">
+                    <div class="col-6"></div>
+                    <div class="col-6"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
